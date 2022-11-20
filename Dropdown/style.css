@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menubar{
+    background: black;
+    text-align: center;
+}
+
+.menubar ul{
+    display:inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menubar ul li{
+    width: 170px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menubar ul li a{
+    text-decoration: none;
+    color:white;
+}
+.active, .menubar ul li:hover{
+    background-color: #14213d;
+    border-radius: 3px;
+}
+
+.menubar .fa{
+    margin-right: 8px;
+}
+
+.submenu{
+    display: none;
+    font-size: 15px;
+}
+
+.menubar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menubar ul li:hover .submenu ul{
+    display: block;
+    margin-left:10px;
+  }
+
+.body-background{
+    padding: 100px;
+    background-color: white;
+    
+}
+
+.brand{
+    display: inline-flex;
+    margin-left:50px;
+    margin-top: 10px;
+    font-size: 35px;
+    color:black;
+} 
+
+.designation{ 
+    margin-left: 300px;
+    font-size: 20px;
+    margin-top: 10px;
+}
